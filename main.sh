@@ -1,2 +1,2 @@
-node express.js
 open ./index.html
+node express.js
