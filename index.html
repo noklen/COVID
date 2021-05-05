@@ -7,31 +7,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="play">Play</div>
-
-<div class="pause">Stop</div>
 <script type="text/javascript">
-  $(document).ready(function() {
-    var audioElement = document.createElement('audio');
-    audioElement.setAttribute('src', 'http://www.uscis.gov/files/nativedocuments/Track%2093.mp3');
-    audioElement.setAttribute('autoplay', 'autoplay');
-    //audioElement.load()
-    $.get();
-    audioElement.addEventListener("load", function() {
-      audioElement.play();
-    }, true);
-
-
-    $('.play').click(function() {
-      audioElement.play();
-    });
-
-
-    $('.pause').click(function() {
-      audioElement.pause();
-    });
-
-
   let url = "http://localhost:8080";
   let openUrl = 'https://reservatic.com/cs/public_services/mestska-poliklinika-praha-mestska-poliklinika-praha-odberove-misto-marianske-nam/calendar?operation_id=7461&no_select_place=true&only_covid_operations=&place_id=5336#select_year'
   function backRequest() {
